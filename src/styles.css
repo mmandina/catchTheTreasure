@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.treasure {
+  background-color: gold;
+}
+
+.player {
+  background-color: red;
+}
+.flexBox {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+}
